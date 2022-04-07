@@ -1,0 +1,200 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #ddd;
+    font-size: 10px;
+    font-family: 'Oswald',Arial, sans-serif;
+
+}
+/*AKHIR RESET */
+
+/* bagian CSS */
+
+/* -----------------Awal header---------------- */
+.header-container {
+	background-color:#858585;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    border-bottom: 5px solid #767676;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu .left_text{
+    font-size: 20px;
+    color: gold;
+}
+ul {
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 800px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: gold;
+    padding: 8px;
+    text-decoration: none;
+  
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+
+/* -----------------Akhir header-------------- */
+
+/* -----------------Awal Content-------------- */
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Awal HOME */
+.homepage-container {
+    max-width: 80%;
+        margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 5px solid black;
+}
+
+.homepage-left h1 {
+    padding-left: 50px;
+	padding-top: 28%;
+	font-weight: bold;
+	font-size: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.homepage-left p {
+	padding-top: 10%;
+	font-size: 20px;
+	text-align: center;
+    width: 77%;
+}
+
+.homepage-right img {
+	width: 468px;
+	height: 620px;
+}
+/* Akhir HOME */
+
+/* Awal About Me */
+
+.aboutme_title {
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.aboutme-container {
+    padding: 40px 0;
+}
+
+.aboutme-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 50px 0;
+    border-bottom: 5px solid black;
+}
+
+.aboutme_right {
+	text-align: center;
+    font-size: 15px;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.aboutme_left {
+	text-align: center;
+    font-size: 15px;
+	padding-left: 50px;
+	width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Akhir About Me */
+
+/* Awal Skill */
+.skill_title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.skill-container {
+    padding:2px;
+}
+
+.skill-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 50px 0;
+}
+
+.skill_right {
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.skill_middle {
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.skill_middle img{
+    height: 197px;
+}
+/* Akhir Skill */
+
+
+/* Footer */
+.footer{
+    padding: 0px;
+}
+
+.footer .copy {
+    font-size: 15px;
+    padding: 3px;
+    background-color: #858585;
+    text-align: center;
+    color: gold;
+}
+
+
+
+/* -----------------Akhir Content------------- */ 
+
